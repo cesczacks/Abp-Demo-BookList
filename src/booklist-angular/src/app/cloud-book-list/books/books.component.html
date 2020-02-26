@@ -1,3 +1,107 @@
-<p>
-  books works!
-</p>
+<page-header [title]="l('Books')" [content]="l('My Book List Content')">
+
+</page-header>
+
+<nz-card [nzBordered]='false'>
+
+  <div class="mb-md">
+    <nz-row nzGutter="8">
+      <nz-col nzSpan="24">
+        <nz-form-item>
+          <nz-form-control>
+            <nz-input-group nzSearch [nzSuffix]="suffixSearchButton">
+              <input type="text" nz-input [(ngModel)]="filterText" id="filterText" name="filterText"
+                (keyup.enter)="refresh()" placeholder="searching...">
+              <ng-template #suffixSearchButton>
+                <button click="refresh()" nz-button nzType="primary" nzSearch type="submit">
+                  <i class="anticon anticon-search"></i>
+                </button>
+              </ng-template>
+            </nz-input-group>
+          </nz-form-control>
+        </nz-form-item>
+      </nz-col>
+    </nz-row>
+  </div>
+
+  <div class="mb-md">
+    <nz-row nzGutter="8">
+      <nz-col nzSn="12" nzMd="20" class="btn-gutter">
+        <button (click)="createOrEdit()" nzType="primary" nz-button>
+          <i class="anticon anticon-plus">
+            <span>{{l('Create')}}</span>
+          </i>
+        </button>
+
+        <button (click)="batchDelete()" nzType="danger" nz-button>
+          <i class="anticon anticon-delete">
+            <span>{{l('Batch Delete')}}</span>
+          </i>
+        </button>
+      </nz-col>
+    </nz-row>
+  </div>
+
+  <div class="mb-md">
+    <nz-row nzGutter="8">
+      <nz-alert nzType="info" [nzMessage]="message" [nzShowIcon]="true">
+        <ng-template #message>
+          <span [innerHTML]="l('GridSelectedXItemsTips',  selectedDataItems.length)"></span>
+          <a (nzClick)="reset($event)" class="ml-md">{{l('ClearEmpty')}}</a>
+          <nz-divider nzType="vertical"></nz-divider>
+          <a (nzClick)="OnClick($event)">{{l('Refresh')}}</a>
+        </ng-template>
+      </nz-alert>
+    </nz-row>
+  </div>
+
+  <nz-row class="my-md">
+    <nz-table #ajaxTable [nzData]="dataList" [nzPageSize]="pageSize" [(nzPageIndex)]="pageNumber" [nzTotal]="totalItems"
+      [nzLoading]="isTableLoading" (nzPageIndexChange)="pageNumberChange()" (nzPageSizeChange)="refresh()"
+      [nzShowSizeChanger]="true" [nzShowQuickJumper]="true" [nzNoResult]="noDataTemplate" [nzFrontPagination]="false"
+      [nzShowTotal]="showTotalTemplate">
+
+      <ng-template #noDataTemplate>
+        <no-data></no-data>
+      </ng-template>
+
+      <ng-template #showTotalTemplate let-total let-range="range">
+        {{l('GridFooterDisplay', pageNumber, totalPages, total, range[0], range[1])}}
+      </ng-template>
+
+      <thead (nzSortChange)="gridSort($event)">
+        <tr>
+          <th nzShowCheckbox [(nzChecked)]="allChecked" [nzDisabled]="allCheckboxDisabled"
+            [nzIndeterminate]="checkboxIndeterminate" (ngCheckedChange)="checkAll($event)">Header</th>
+          <th nz-th nzShowSort nzSortKey="ImgUrl" nzWidth="100px"><span>{{l('ImgUrl')}}</span></th>
+          <th nz-th nzShowSort nzSortKey="Name"><span>{{l('Name')}}</span></th>
+          <th nz-th nzShowSort nzSortKey="Author"><span>{{l('Author')}}</span></th>
+          <th nz-th nzShowSort nzSortKey="Intro"><span>{{l('Intro')}}</span></th>
+          <th nzWidth="230px" class="text-center"><span>{{l('Actions')}}</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of ajaxTable.data">
+          <td nzShowCheckbox [nzChecked]="item.checked" (nzCheckedChange)="refreshCheckStatus(dataList)"></td>
+          <td></td>
+          <td>
+            <ellipsis lines="1"><span nz-tooltip [nzTitle]="item.name">{{item.name}}</span></ellipsis>
+          </td>
+          <td>
+            <ellipsis lines="1"><span nz-tooltip [nzTitle]="item.author">{{item.author}}</span></ellipsis>
+          </td>
+          <td>
+            <ellipsis lines="1"><span nz-tooltip [nzTitle]="item.intro">{{item.intro}}</span></ellipsis>
+          </td>
+          <ng-container>
+            <a (click)="createOrEdit(item.id)">
+              <i class="anticon anticon-edit mrsm"></i>
+              <span>{{l('Edit')}}</span>
+            </a>
+          </ng-container>
+        </tr>
+      </tbody>
+    </nz-table>
+  </nz-row>
+
+</nz-card>
