@@ -4,6 +4,7 @@
 		<!-- Book List -->
 		<text name="ClouldBookList" value="云书单" />
 		<text name="BookLists" value="书单列表" />
+		<text name="Books" value="书籍" />
 
 		<!-- Common -->
 		<text name="HomePage" value="主页" />

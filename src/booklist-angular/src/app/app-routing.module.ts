@@ -41,7 +41,12 @@ const routes: Routes = [
         component: AboutComponent,
         canActivate: [AppRouteGuard],
       },
-
+      // Lazy load
+      {
+        path: 'cloud-book-list',
+        loadChildren: 'app/cloud-book-list/cloud-book-list.module#CloudBookListModule',
+        data: { preload: true }
+      }
     ],
   },
 ];

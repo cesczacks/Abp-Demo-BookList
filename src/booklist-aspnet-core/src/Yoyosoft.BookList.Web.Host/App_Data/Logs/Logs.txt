@@ -4884,3 +4884,287 @@ INFO  2020-02-26 17:13:27,187 [6    ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2020-02-26 17:13:27,220 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
 INFO  2020-02-26 17:13:27,270 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) in 579.122ms
 INFO  2020-02-26 17:13:27,270 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 628.9328ms 200 application/json; charset=utf-8
+DEBUG 2020-02-26 20:02:58,920 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-26 20:02:59,403 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-26 20:02:59,437 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Yoyosoft.BookList.Web.Host.Startup.BookListWebHostModule, Yoyosoft.BookList.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,440 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Yoyosoft.BookList.BookListWebCoreModule, Yoyosoft.BookList.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,440 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Yoyosoft.BookList.BookListApplicationModule, Yoyosoft.BookList.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Yoyosoft.BookList.BookListCoreModule, Yoyosoft.BookList.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Yoyosoft.BookList.EntityFrameworkCore.BookListEntityFrameworkModule, Yoyosoft.BookList.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:02:59,453 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-26 20:02:59,555 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-26 20:02:59,555 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-26 20:02:59,555 [1    ] o.Configuration.LanguageManagementConfig - Converted BookList (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-26 20:02:59,555 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-26 20:03:00,482 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Yoyosoft.BookList.EntityFrameworkCore.BookListDbContext, Yoyosoft.BookList.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:03:02,327 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-26 20:03:02,449 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-26 20:03:02,513 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-26 20:03:02,546 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BookList
+DEBUG 2020-02-26 20:03:02,588 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-26 20:03:02,685 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2020-02-26 20:03:02,758 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-02-26 20:03:02,759 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-26 20:03:02,773 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Users.Dto.CreateUserDto
+DEBUG 2020-02-26 20:03:02,776 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Users.Dto.UserDto
+DEBUG 2020-02-26 20:03:02,777 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-26 20:03:02,778 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-26 20:03:02,778 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Roles.Dto.CreateRoleDto
+DEBUG 2020-02-26 20:03:02,778 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Roles.Dto.PermissionDto
+DEBUG 2020-02-26 20:03:02,778 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Roles.Dto.RoleDto
+DEBUG 2020-02-26 20:03:02,779 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-26 20:03:02,779 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.MultiTenancy.Dto.TenantDto
+INFO  2020-02-26 20:03:12,696 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-02-26 20:03:14,337 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Yoyosoft.BookList.Web.Host.Controllers.HomeController.Index (Yoyosoft.BookList.Web.Host)
+INFO  2020-02-26 20:03:14,835 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Yoyosoft.BookList.Web.Host.Controllers.HomeController.Index (Yoyosoft.BookList.Web.Host) - Validation state: Valid
+INFO  2020-02-26 20:03:14,840 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Yoyosoft.BookList.Web.Host.Controllers.HomeController.Index (Yoyosoft.BookList.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.2763ms.
+INFO  2020-02-26 20:03:15,242 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-02-26 20:03:15,269 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Yoyosoft.BookList.Web.Host.Controllers.HomeController.Index (Yoyosoft.BookList.Web.Host) in 923.0108ms
+INFO  2020-02-26 20:03:15,398 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2709.2507ms 302 
+INFO  2020-02-26 20:03:15,457 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-02-26 20:03:15,516 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.6445ms 200 text/html
+INFO  2020-02-26 20:03:15,841 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-02-26 20:03:15,932 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-02-26 20:03:15,935 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-02-26 20:03:15,964 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-02-26 20:03:15,966 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2020-02-26 20:03:15,967 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2020-02-26 20:03:15,970 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.0647ms 304 application/javascript
+INFO  2020-02-26 20:03:15,970 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-02-26 20:03:15,970 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.6037ms 304 application/javascript
+INFO  2020-02-26 20:03:15,970 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-02-26 20:03:15,970 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.323ms 304 application/javascript
+INFO  2020-02-26 20:03:15,970 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-02-26 20:03:15,970 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 130.2442ms 304 text/css
+INFO  2020-02-26 20:03:15,971 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2020-02-26 20:03:15,972 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.129ms 304 application/javascript
+INFO  2020-02-26 20:03:17,224 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-02-26 20:03:17,397 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:03:18,483 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1259.4243ms 200 application/json;charset=utf-8
+INFO  2020-02-26 20:05:31,569 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:05:31,710 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:05:31,730 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 165.0436ms 204 
+INFO  2020-02-26 20:05:31,743 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:05:31,744 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:05:31,785 [21   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:05:32,140 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-02-26 20:05:32,140 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:05:32,185 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-02-26 20:05:34,842 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2656.4508ms.
+INFO  2020-02-26 20:05:35,050 [20   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:05:35,325 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 3184.6026ms
+INFO  2020-02-26 20:05:35,325 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3582.1745ms 200 application/json; charset=utf-8
+INFO  2020-02-26 20:05:36,064 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:05:36,064 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:05:36,065 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.627ms 204 
+INFO  2020-02-26 20:05:36,190 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:05:36,190 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:05:36,190 [22   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:05:36,239 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application)
+INFO  2020-02-26 20:05:36,239 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:05:36,541 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) - Validation state: Valid
+INFO  2020-02-26 20:05:36,893 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 352.3214ms.
+INFO  2020-02-26 20:05:36,937 [22   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:05:37,003 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) in 763.7692ms
+INFO  2020-02-26 20:05:37,003 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 813.1851ms 200 application/json; charset=utf-8
+INFO  2020-02-26 20:09:19,782 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:09:19,822 [27   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:09:19,831 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.2527ms 204 
+INFO  2020-02-26 20:09:19,848 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:09:19,848 [27   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:09:19,921 [27   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:09:20,055 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-02-26 20:09:20,057 [27   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:09:20,100 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-02-26 20:09:20,177 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 76.8632ms.
+INFO  2020-02-26 20:09:20,325 [27   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:09:20,335 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 280.1268ms
+INFO  2020-02-26 20:09:20,337 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 489.6138ms 200 application/json; charset=utf-8
+INFO  2020-02-26 20:09:20,406 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:09:20,408 [27   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:09:20,408 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.413ms 204 
+INFO  2020-02-26 20:09:20,414 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:09:20,415 [27   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:09:20,415 [27   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:09:20,421 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application)
+INFO  2020-02-26 20:09:20,421 [27   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:09:20,441 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) - Validation state: Valid
+INFO  2020-02-26 20:09:20,599 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 157.3269ms.
+INFO  2020-02-26 20:09:20,613 [28   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:09:20,615 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) in 194.2058ms
+INFO  2020-02-26 20:09:20,616 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 201.5244ms 200 application/json; charset=utf-8
+INFO  2020-02-26 20:11:12,738 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:11:12,738 [25   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:11:12,739 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.7423ms 204 
+INFO  2020-02-26 20:11:12,767 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:11:12,769 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:11:12,769 [32   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:11:12,776 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-02-26 20:11:12,776 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:11:12,777 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-02-26 20:11:12,794 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 16.6717ms.
+INFO  2020-02-26 20:11:12,877 [35   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:11:12,880 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 104.4789ms
+INFO  2020-02-26 20:11:12,881 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.2567ms 200 application/json; charset=utf-8
+INFO  2020-02-26 20:11:12,911 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:11:12,911 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:11:12,911 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2518ms 204 
+INFO  2020-02-26 20:11:12,922 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:11:12,923 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:11:12,923 [32   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:11:12,926 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application)
+INFO  2020-02-26 20:11:12,926 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:11:12,927 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) - Validation state: Valid
+INFO  2020-02-26 20:11:13,015 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 86.9615ms.
+INFO  2020-02-26 20:11:13,029 [32   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:11:13,029 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) in 103.2029ms
+INFO  2020-02-26 20:11:13,029 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.7598ms 200 application/json; charset=utf-8
+INFO  2020-02-26 20:12:24,394 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:12:24,394 [38   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:12:24,395 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.701ms 204 
+INFO  2020-02-26 20:12:24,401 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:12:24,402 [35   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:12:24,402 [35   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:12:24,416 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-02-26 20:12:24,416 [35   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:12:24,417 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-02-26 20:12:24,449 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 31.5039ms.
+INFO  2020-02-26 20:12:24,468 [35   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:12:24,469 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 52.8679ms
+INFO  2020-02-26 20:12:24,469 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.9139ms 200 application/json; charset=utf-8
+INFO  2020-02-26 20:12:24,493 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:12:24,493 [35   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:12:24,493 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2874ms 204 
+INFO  2020-02-26 20:12:24,500 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:12:24,500 [35   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:12:24,501 [35   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:12:24,507 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application)
+INFO  2020-02-26 20:12:24,508 [35   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:12:24,511 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) - Validation state: Valid
+INFO  2020-02-26 20:12:24,534 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 22.6761ms.
+INFO  2020-02-26 20:12:24,536 [38   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:12:24,536 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) in 28.5373ms
+INFO  2020-02-26 20:12:24,537 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.7573ms 200 application/json; charset=utf-8
+INFO  2020-02-26 20:14:06,684 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:14:06,684 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:14:06,684 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5505ms 204 
+INFO  2020-02-26 20:14:06,702 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:14:06,703 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:14:06,714 [41   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:14:06,722 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-02-26 20:14:06,723 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:14:06,724 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-02-26 20:14:06,759 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 35.6565ms.
+INFO  2020-02-26 20:14:06,771 [36   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:14:06,775 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 52.1156ms
+INFO  2020-02-26 20:14:06,775 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.6463ms 200 application/json; charset=utf-8
+INFO  2020-02-26 20:14:06,831 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:14:06,831 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:14:06,831 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5955ms 204 
+INFO  2020-02-26 20:14:06,840 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:14:06,840 [39   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:14:06,841 [39   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:14:06,844 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application)
+INFO  2020-02-26 20:14:06,844 [39   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:14:06,847 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) - Validation state: Valid
+INFO  2020-02-26 20:14:06,867 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 19.3454ms.
+INFO  2020-02-26 20:14:06,872 [35   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:14:06,872 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) in 27.4704ms
+INFO  2020-02-26 20:14:06,872 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.2402ms 200 application/json; charset=utf-8
+DEBUG 2020-02-26 20:17:22,302 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-26 20:17:22,850 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-26 20:17:22,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Yoyosoft.BookList.Web.Host.Startup.BookListWebHostModule, Yoyosoft.BookList.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Yoyosoft.BookList.BookListWebCoreModule, Yoyosoft.BookList.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Yoyosoft.BookList.BookListApplicationModule, Yoyosoft.BookList.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Yoyosoft.BookList.BookListCoreModule, Yoyosoft.BookList.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,874 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Yoyosoft.BookList.EntityFrameworkCore.BookListEntityFrameworkModule, Yoyosoft.BookList.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,874 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:22,881 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-26 20:17:22,972 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-26 20:17:22,972 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-26 20:17:22,972 [1    ] o.Configuration.LanguageManagementConfig - Converted BookList (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-26 20:17:22,972 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-26 20:17:23,402 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Yoyosoft.BookList.EntityFrameworkCore.BookListDbContext, Yoyosoft.BookList.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-26 20:17:24,032 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-26 20:17:24,171 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-26 20:17:24,282 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-26 20:17:24,313 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BookList
+DEBUG 2020-02-26 20:17:24,346 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-26 20:17:24,397 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2020-02-26 20:17:24,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-02-26 20:17:24,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-26 20:17:24,549 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Users.Dto.CreateUserDto
+DEBUG 2020-02-26 20:17:24,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Users.Dto.UserDto
+DEBUG 2020-02-26 20:17:24,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-26 20:17:24,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-26 20:17:24,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Roles.Dto.CreateRoleDto
+DEBUG 2020-02-26 20:17:24,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Roles.Dto.PermissionDto
+DEBUG 2020-02-26 20:17:24,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.Roles.Dto.RoleDto
+DEBUG 2020-02-26 20:17:24,561 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-26 20:17:24,561 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Yoyosoft.BookList.MultiTenancy.Dto.TenantDto
+INFO  2020-02-26 20:17:32,153 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-02-26 20:17:34,204 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Yoyosoft.BookList.Web.Host.Controllers.HomeController.Index (Yoyosoft.BookList.Web.Host)
+INFO  2020-02-26 20:17:34,777 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Yoyosoft.BookList.Web.Host.Controllers.HomeController.Index (Yoyosoft.BookList.Web.Host) - Validation state: Valid
+INFO  2020-02-26 20:17:34,783 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Yoyosoft.BookList.Web.Host.Controllers.HomeController.Index (Yoyosoft.BookList.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.1725ms.
+INFO  2020-02-26 20:17:35,381 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-02-26 20:17:35,398 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Yoyosoft.BookList.Web.Host.Controllers.HomeController.Index (Yoyosoft.BookList.Web.Host) in 1189.948ms
+INFO  2020-02-26 20:17:35,577 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3429.1919ms 302 
+INFO  2020-02-26 20:17:35,614 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-02-26 20:17:35,681 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.1599ms 200 text/html
+INFO  2020-02-26 20:17:35,811 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-02-26 20:17:35,833 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-02-26 20:17:35,836 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-02-26 20:17:35,847 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2020-02-26 20:17:35,847 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2020-02-26 20:17:35,851 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.0805ms 304 application/javascript
+INFO  2020-02-26 20:17:35,851 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.6587ms 304 application/javascript
+INFO  2020-02-26 20:17:35,852 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2020-02-26 20:17:35,852 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.7305ms 304 text/css
+INFO  2020-02-26 20:17:36,534 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-02-26 20:17:36,665 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:17:37,130 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 598.0157ms 200 application/json;charset=utf-8
+INFO  2020-02-26 20:20:18,543 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:20:18,989 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:20:19,107 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 596.9078ms 204 
+INFO  2020-02-26 20:20:19,154 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-02-26 20:20:19,155 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:20:19,363 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:20:20,281 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-02-26 20:20:20,281 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:20:20,400 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-02-26 20:20:27,949 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 7549.7744ms.
+INFO  2020-02-26 20:20:28,318 [14   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:20:28,549 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 8268.529ms
+INFO  2020-02-26 20:20:28,550 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9395.8133ms 200 application/json; charset=utf-8
+INFO  2020-02-26 20:20:28,702 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:20:28,703 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:20:28,709 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5584ms 204 
+INFO  2020-02-26 20:20:28,718 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-02-26 20:20:28,718 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:20:28,720 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-02-26 20:20:28,812 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application)
+INFO  2020-02-26 20:20:28,814 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2020-02-26 20:20:29,051 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) - Validation state: Valid
+INFO  2020-02-26 20:20:29,275 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 224.288ms.
+INFO  2020-02-26 20:20:29,347 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-26 20:20:29,738 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Yoyosoft.BookList.Sessions.SessionAppService.GetCurrentLoginInformations (Yoyosoft.BookList.Application) in 923.2648ms
+INFO  2020-02-26 20:20:29,741 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1022.7842ms 200 application/json; charset=utf-8

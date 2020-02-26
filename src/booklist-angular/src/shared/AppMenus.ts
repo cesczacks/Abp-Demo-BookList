@@ -49,9 +49,15 @@ export class AppMenus {
             children: [
                 {
                     text: "",
-                    i18n: "BookLists",
+                    i18n: "Books",
                     icon: { type: "icon", value: "book" },
                     link: "/app/cloud-book-list/books"
+                },
+                {
+                    text: "",
+                    i18n: "BookLists",
+                    icon: { type: "icon", value: "book" },
+                    link: "/app/cloud-book-list/book-lists"
                 }
             ]
         },
